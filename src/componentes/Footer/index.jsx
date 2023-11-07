@@ -1,20 +1,23 @@
 import "./Footer.css";
+import { BsFacebook } from "react-icons/bs";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
     <footer
       className="footer"
-      style={{ backgroundImage: "url(/img/footer.png)" }}
+      style={{ backgroundImage: "url(/img/footer.jpg)" }}
     >
       <div className="redes">
-        <a href="https://www.aluracursos.com/">
-          <img src="/img/facebook.png" alt="Facebook" />
+        <a className="redes" href="https://www.facebook.com/angelcscs/">
+          <BsFacebook size={24} color="black" alt="Facebook" />
         </a>
-        <a href="https://www.aluracursos.com/">
-          <img src="/img/twitter.png" alt="twitter" />
+        <a className="redes" href="https://www.aluracursos.com/1">
+          <FaSquareXTwitter size={24} color="black" alt="twitter" />
         </a>
-        <a href="https://www.aluracursos.com/">
-          <img src="/img/instagram.png" alt="instagram" />
+        <a className="redes" href="https://www.aluracursos.com/12123">
+          <AiFillInstagram size="24" color="black" alt="instagram" />
         </a>
       </div>
       <img src="/img/Logo.png" alt="org" />

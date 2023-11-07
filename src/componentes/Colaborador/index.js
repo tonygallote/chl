@@ -8,7 +8,7 @@ const Colaborador = (props) => {
     // condicion ? verdadero : falso
 
     return <div className="colaborador">
-        <AiFillCloseCircle className="eliminar" onClick={() => eliminarColaborador(id)} />
+        < AiFillCloseCircle className="eliminar" onClick={() => eliminarColaborador(id)} />
         <div className="encabezado" style={{ backgroundColor: colorPrimario }}>
             <img src={foto} alt={nombre} />
         </div>
